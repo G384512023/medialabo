@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(rgb(20, 185, 20), rgb(201, 242, 201));
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+h2 {
+    font-style: italic;
+}
