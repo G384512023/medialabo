@@ -26,13 +26,14 @@ function hantei() {
   }
   if (kotae === yoso){
     console.log('正解です.おめでとう！');
+    kaisu = kaisu + 3;
   }
   else if (kotae !== yoso){ 
    if (kaisu === 3){
     console.log('まちがい. 残念でした答えは'+kotae+'です');
-  } else if (kaisu < 2 && yoso < kotae){
+  }  else if (kaisu < 3 && yoso < kotae){
     console.log('まちがい. 答えはもっと大きいですよ')
-  } else if (kaisu < 2 &&  yoso > kotae){
+  } else if (kaisu < 3 &&  yoso > kotae){
     console.log('まちがい. 答えはもっと小さいですよ')
   }
 }
