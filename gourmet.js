@@ -14,7 +14,7 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
-
+  
 }
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
